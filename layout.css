@@ -1,0 +1,63 @@
+@media (min-width: 950px) {
+  nav {
+    display: flex;
+  }
+  ol.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto auto;
+    gap: 3.5rem;
+    height: 2rem;
+    order: 0;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+
+  .hamburger-icon {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+  #hero-image > div {
+    padding: 0 6rem;
+    > p {
+      font-size: 16px;
+    }
+  }
+  .split-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .split-section {
+    padding: 3.5rem 6rem;
+  }
+  #topics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    > div {
+      height: 30rem;
+      > img {
+        min-height: 100%;
+      }
+    }
+  }
+  #contact-form {
+    padding: 6rem 6rem;
+  }
+  footer {
+    padding: 4rem 6rem;
+    > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}
